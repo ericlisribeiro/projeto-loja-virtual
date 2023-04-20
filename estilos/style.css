@@ -10,6 +10,8 @@
 section#conteudo {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
+
 }
 
 img.logo {
@@ -22,8 +24,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     width: 1150px;
-    margin: 80px 150px 80px 0px;
-    border-radius: 20px;
+    margin: 80px 160px 0px 0px;
     background-color: antiquewhite;
    
     
@@ -33,11 +34,10 @@ nav {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin-left: 149px;
+    margin-left: 144px;
     width: 50px;
     height: 635px;
     padding-right: 80px;
-    border-radius: 20px 0px 0px 20px;
     background-color: aquamarine;
 }
 
@@ -57,18 +57,31 @@ div.primeiradiv {
     font-size: 0.7em;
     background-color: aqua;
     width: 600px;
+
+
+    background-image: url('../imagens/imagemprincipal.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-position-x: -150px;
+}
+
+div.primeiradiv section {
+    margin-left: 280px;
+    font-size: 1.8em;
 }
 
 img.img_primeira_div {
     width: 300px;
     height: 400px;
+
 }
 
 div.segundadiv {
     display: flex;
     flex-direction: row;
     background-color: blueviolet;
-    width: 400px;
+    width: 450px;
     flex-wrap: wrap;
 }
 
@@ -102,4 +115,12 @@ img.img_quintadiv {
 
 img.img_sextadiv {
     width: 140px;
+}
+
+footer {
+    width: 1232px;
+    padding: 20px;
+    background-color: blue;
+    margin: auto;
+    margin-bottom: 20px;
 }
