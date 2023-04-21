@@ -54,21 +54,32 @@ nav > a:hover {
 div.primeiradiv {
     display: flex;
     flex-wrap: wrap;
-    font-size: 0.7em;
     background-color: aqua;
-    width: 600px;
+    width: 650px;
 
 
     background-image: url('../imagens/imagemprincipal.png');
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: 550px;
+    background-size: 580px;
     background-position-x: -150px;
+    background-position-y: -22px;
 }
 
 div.primeiradiv section {
     margin-left: 280px;
+    margin-top: 60px;
     font-size: 1.8em;
+}
+
+div.primeiradiv section h1 {
+    font-weight: bolder;
+    margin-top: 24px;
+}
+
+div.primeiradiv section p {
+    margin-top: 25px;
+    font-size: 0.6em;
 }
 
 img.img_primeira_div {
@@ -76,6 +87,9 @@ img.img_primeira_div {
     height: 400px;
 
 }
+
+        /* segunda div */
+
 
 div.segundadiv {
     display: flex;
@@ -85,6 +99,49 @@ div.segundadiv {
     flex-wrap: wrap;
 }
 
+section.toposegundadiv {
+    background-color: lightcyan;
+    width: 450px;
+    height: 60px;
+    text-align: center;
+}
+
+section.toposegundadiv p {
+    display: inline;
+
+}
+
+section.toposegundadiv span {
+    margin-top: 20px;
+    margin-right: 35px;
+}
+
+section.celular {
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+section.celular p {
+    font-size: 0.8em;
+    margin-left: 22px;
+    margin-top: 30px;
+    padding: 10px 7px 10px 11px;
+    width: 109px;
+    color: white;
+    background-color: red;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+section.paragrafo {
+    margin-left: 25px;
+}    
+
+.desconto {
+    display: inline;
+    color: red;
+}
 
 img.img_segunda_div {
     width: 150px;
