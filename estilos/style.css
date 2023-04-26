@@ -34,13 +34,13 @@ nav {
     margin-top: 80px;
     margin-left: 169px;
     width: 50px;
-    height: 635px;
+    height: 700px;
     padding-right: 80px;
     background-color: aquamarine;
 }
 
 nav > a {
-    margin: 12px 8px 8px 27px;
+    margin: 19px 8px 8px 27px;
 }
 
 nav > a:hover {
@@ -77,13 +77,16 @@ div.primeiradiv section h1 {
 
 div.primeiradiv section p {
     margin-top: 25px;
+    margin-bottom: 25px;
     font-size: 0.6em;
 }
 
-img.img_primeira_div {
-    width: 300px;
-    height: 400px;
 
+div.primeiradiv img {
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    padding-top: 4px;
 }
 
         /* segunda div */
@@ -92,7 +95,7 @@ img.img_primeira_div {
 div.segundadiv {
     display: flex;
     flex-direction: row;
-    background-color: blueviolet;
+    background-color: white;
     width: 450px;
     flex-wrap: wrap;
 }
@@ -109,13 +112,13 @@ section.toposegundadiv p {
 
 }
 
-section.toposegundadiv span {
+section.toposegundadiv svg {
     margin-top: 20px;
     margin-right: 35px;
 }
 
 section.celular {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-left: 25px;
 }
 
@@ -161,25 +164,38 @@ h2 {
     margin-bottom: 20px;
 }
 
-h2 svg {
-    background-color: yellow;
-    border-radius: 50%;
+h2 img {
+    width: 17px;
     margin-top: 5px;
-    border-color: yellow;
 }
 
 img.img_segunda_div {
     width: 150px;
 }
 
-.h1 {
+div.recomendacoes {
+    height: 95px;
     width: 1100px;
+    background-color: white;
 }
+
+div.recomendacoes h1 {
+    display: inline;
+   margin-left: 22px;
+   margin-right: 520px;
+}
+
+div.recomendacoes img {
+    width: 17px;
+    padding-top: 37px;
+    margin-left: 25px;
+}
+
 
                         /* parte de baixo */
 
-div.debaixo{
-    background-color: bisque;
+div.terceiradiv{
+    background-color: rgb(151, 94, 25);
 
 }
 
@@ -200,9 +216,10 @@ img.img_sextadiv {
 }
 
 footer {
-    width: 1182px;
+    width: 1181px;
     padding: 20px;
     background-color: blue;
-    margin: auto;
+    margin-left: 168px;
     margin-bottom: 20px;
+    max-width: 100%;
 }
